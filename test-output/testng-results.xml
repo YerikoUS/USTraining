@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Sucess 200 validation]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-02-22T13:43:52 CST" name="Default suite" finished-at="2023-02-22T13:43:55 CST" duration-ms="2074">
+  <suite started-at="2023-02-24T12:21:13 CST" name="Default suite" finished-at="2023-02-24T12:21:15 CST" duration-ms="2283">
     <groups>
     </groups>
-    <test started-at="2023-02-22T13:43:52 CST" name="Default test" finished-at="2023-02-22T13:43:55 CST" duration-ms="2074">
-      <class name="com.unosquare.FirstAPITest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstAPITest@1b1426f4]" started-at="2023-02-22T13:43:52 CST" name="beforeMethod" finished-at="2023-02-22T13:43:52 CST" duration-ms="5" status="PASS">
+    <test started-at="2023-02-24T12:21:13 CST" name="Default test" finished-at="2023-02-24T12:21:15 CST" duration-ms="2283">
+      <class name="com.unosquare.FirstPostClass">
+        <test-method signature="f()[pri:0, instance:com.unosquare.FirstPostClass@429bffaa]" started-at="2023-02-24T12:21:13 CST" name="f" finished-at="2023-02-24T12:21:15 CST" duration-ms="2252" status="PASS">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.unosquare.FirstAPITest@1b1426f4]" started-at="2023-02-22T13:43:52 CST" name="f" finished-at="2023-02-22T13:43:55 CST" duration-ms="2039" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Sucess 200 validation]]>
-            </line>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.unosquare.FirstAPITest -->
+      </class> <!-- com.unosquare.FirstPostClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
