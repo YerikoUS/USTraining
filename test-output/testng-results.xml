@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-24T12:21:13 CST" name="Default suite" finished-at="2023-02-24T12:21:15 CST" duration-ms="2283">
+  <suite started-at="2023-02-26T02:20:55 CST" name="Default suite" finished-at="2023-02-26T02:20:59 CST" duration-ms="4848">
     <groups>
     </groups>
-    <test started-at="2023-02-24T12:21:13 CST" name="Default test" finished-at="2023-02-24T12:21:15 CST" duration-ms="2283">
-      <class name="com.unosquare.FirstPostClass">
-        <test-method signature="f()[pri:0, instance:com.unosquare.FirstPostClass@429bffaa]" started-at="2023-02-24T12:21:13 CST" name="f" finished-at="2023-02-24T12:21:15 CST" duration-ms="2252" status="PASS">
+    <test started-at="2023-02-26T02:20:55 CST" name="Default test" finished-at="2023-02-26T02:20:59 CST" duration-ms="4848">
+      <class name="com.unosquare.Encapsulation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.Encapsulation@7bd4937b]" started-at="2023-02-26T02:20:55 CST" name="beforeSuite" finished-at="2023-02-26T02:20:55 CST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.unosquare.FirstPostClass -->
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="Gets()[pri:0, instance:com.unosquare.Encapsulation@7bd4937b]" started-at="2023-02-26T02:20:55 CST" name="Gets" finished-at="2023-02-26T02:20:57 CST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gets -->
+        <test-method signature="PostLogin()[pri:0, instance:com.unosquare.Encapsulation@7bd4937b]" started-at="2023-02-26T02:20:57 CST" name="PostLogin" finished-at="2023-02-26T02:20:57 CST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostLogin -->
+        <test-method signature="Posts()[pri:0, instance:com.unosquare.Encapsulation@7bd4937b]" started-at="2023-02-26T02:20:57 CST" name="Posts" finished-at="2023-02-26T02:20:59 CST" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posts -->
+        <test-method signature="Puts()[pri:0, instance:com.unosquare.Encapsulation@7bd4937b]" started-at="2023-02-26T02:20:59 CST" name="Puts" finished-at="2023-02-26T02:20:59 CST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Puts -->
+      </class> <!-- com.unosquare.Encapsulation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
